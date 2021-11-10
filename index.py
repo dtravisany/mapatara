@@ -15,7 +15,7 @@ def dms2dd(s):
 
 st.subheader("Type of Sampling")
 
-df = pd.read_excel("data/DATA_1_TARA.xlsx")
+df = pd.read_excel("data/data_tara_orden.csv")
 
 #Seleccionar rango
 #datefilter = st.slider('Days', , 23, 17)
